@@ -1,0 +1,43 @@
+/*
+Stylesheet for extra elements and posterior elements added to the page
+*/
+.main_logo {
+    max-width: 170px;
+    padding: 0;
+    margin: 0;
+}
+
+.phone_download_button {
+    font-size: 14px;
+    font-weight: 700;
+    width: 75%;
+    color: #fff;
+    border: solid #fff;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    z-index: 15;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.4s;
+}
+
+.phone_download_button:hover {
+    color: #eeeeee;
+    font-size: 15px;
+    background-color: #1647e9;
+    border-width: 0;
+
+}
+
+.h1_highlight {
+    color: #0c38c9;
+}
+
+.task_features {
+    max-width: 450px;
+}
